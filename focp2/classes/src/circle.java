@@ -1,16 +1,26 @@
 class circle
 {
-	double radius;
-	double findArea()
+	private double radius;
+	private String colour;
+
+	public circle()
 	{
-		double area;
-		area = 3.14 * radius *radius;
-		return area;
+	this.radius=1.0;
+	this.colour="red";
 	}
-	void displayArea()
+	public circle(double r,String c)
 	{
-		double Area;
-		Area= findArea();
-		System.out.println(Area);
+	this.radius=r;
+	this .colour=c;
 	}
+	public circle(double r)
+	{
+	this.radius=r;
+	this.colour="red";
+	}
+	public double getRadius(){return radius;}
+	public void setRadius(double r){this.radius=r;}
+	public String getcolour(){return colour;}
+	public void setcolour(String s){colour=s;}
+	public double getArea(){return 3.14*radius*radius;}
 }
