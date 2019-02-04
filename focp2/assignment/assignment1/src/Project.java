@@ -5,7 +5,7 @@ class Project
 	Date startDate;
 	Date endDate;
 	String role;
-	String responsibilities;
+	String [] responsibilities;
 	
 	void setname(String name)
 	{
@@ -43,11 +43,11 @@ class Project
 		return role;
 	}
 	
-	void setresponsibilities(String responsibilities)
+	void setresponsibilities(String [] responsibilities)
 	{
 		this.responsibilities=responsibilities;
 	}
-	String getresponsibilities()
+	String [] getresponsibilities()
 	{
 		return responsibilities;
 	}

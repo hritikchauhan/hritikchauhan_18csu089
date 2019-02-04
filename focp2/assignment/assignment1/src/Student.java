@@ -41,7 +41,7 @@ class Student
 	
 	void setdob(Date dob)
 	{
-		this.firstName=firstName;
+		this.dob=dob;
 	}
 	Date getdob()
 	{

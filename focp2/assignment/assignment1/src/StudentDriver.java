@@ -95,7 +95,7 @@ class StudentDriver
 			catch(Exception e){ };
 			System.out.print("Enter no. of Responsibility: ");
 			rno=sc.nextInt();
-			d1.projects[l].responsibilities = new String[rno];
+			d1.projects[l].responsibilities=new String[rno];
 			System.out.println("Responsibility : ");
 			for(int k=0;k<rno;k++)
 			{
